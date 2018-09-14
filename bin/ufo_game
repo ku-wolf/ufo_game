@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+"""Command line interface for ufo_game."""
+
+import sys
+from ufo_game.main import main
+
+if __name__ == "__main__":
+    main(*sys.argv)
+
+
